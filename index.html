@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Typing Effect</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="assets/cursor.png">
+  <link rel="stylesheet" href="https://ankitjha2603.github.io/typingEffect/typing.css">
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="stylesheet" href="../assets/cheatSheet.css">
+</head>
+
+<body>
+  <h1 class="cheatSheet-head">Typing effect</h1>
+  <!------------------ Getting Startes ------------------->
+  <h2><u>Getting Started</u></h2>
+  <p>Add this JS CDN link to add cursor typing effect to your website</p>
+  <p>Place the &lt;link&gt; tag in the &lt;head&gt; for CSS, and the &lt;script&gt; tag for JavaScript before the closing &lt;/body&gt;.</p>
+  <pre class="language-html"><code>&lt;link rel="stylesheet" href="https://ankitjha2603.github.io/typingEffect/typing.css"&gt;</code></pre>
+  <pre class="language-html"><code>&lt;script src=&quot;https://ankitjha2603.github.io/typingEffect/typing.js&quot;&gt;&lt;/script&gt;</code></pre>
+  <!------------------------------------------------------>
+  <!------------------- Basic Example  ------------------->
+  <h2><u>Classes and attrbutes</u></h2>
+  <p>Add <spam class="ankitjha2603_bglight">.typing</spam> class for typing effect to your website. Add all text in attribute <spam class="ankitjha2603_bglight">text</spam> in the element</p>
+  <div class="sample">
+    <p class="typing" text="This is typing effect, Created by javascript"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;This is typing effect, Created by javascript&quot;&gt;&lt;/p&gt;</code></pre>
+  <!------------------------------------------------------>
+  <!------------------- Speed Example  ------------------->
+  <h2><u>Speed</u></h2>
+  <p>You can change speed of cursor by attribute <spam class="ankitjha2603_bglight">char_per_sec</spam>,its defines the typing speed of cursor in
+    character per second</p>
+  <div class="sample">
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" char_per_sec="1"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" char_per_sec="2"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" char_per_sec="4"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" char_per_sec="8"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; char_per_sec=&quot;1&quot;&gt;
+&lt;/p&gt;<br>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; char_per_sec=&quot;2&quot;&gt;
+&lt;/p&gt;<br>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; char_per_sec=&quot;4&quot;&gt;&lt;/p&gt; &nbsp;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; char_per_sec=&quot;8&quot;&gt;&lt;/p&gt;</code></pre>
+
+  <!------------------------------------------------------>
+  <!------------------- Pause Example  ------------------->
+  <h2><u>Pause</u></h2>
+  <p><spam class="ankitjha2603_bglight">pauseTime</spam> attribute defines how long the cursor pauses after completing each word</p>
+  <p><spam class="ankitjha2603_bglight">pauseTime</spam> take how many seconds does the cursor pause after completing each word</p>
+  <div class="sample">
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" pauseTime="0.5"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" pauseTime="2"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" pauseTime="5"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; pauseTime=&quot;0.5&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; pauseTime=&quot;2&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; pauseTime=&quot;5&quot;&gt;&lt;/p&gt;</code></pre>
+  <!------------------------------------------------------------->
+  <!------------------- Custom cursor ------------------->
+  <h2><u>Custom cursor</u></h2>
+  <!------  Cursor color ------>
+  <h3><u>Cursor color</u></h3>
+  <p><spam class="ankitjha2603_bglight">cursorColor</spam> attribute defines the color of cursor</p>
+  <div class="sample">
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorColor="green"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorColor="red"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorColor="#FFD700"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorColor=&quot;green&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorColor=&quot;red&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorColor=&quot;#FFD700&quot;&gt;&lt;/p&gt;</code></pre>
+  <!--------------------------->
+  <!------  Cursor color ------>
+  <h3><u>Cursor width</u></h3>
+  <p><spam class="ankitjha2603_bglight">cursorColor</spam> attribute defines the width of cursor</p>
+  <div class="sample">
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorWidth="1px"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorWidth="1.5px"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorWidth="2px"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorWidth=&quot;1px&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorWidth=&quot;1.5px&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorWidth=&quot;2px&quot;&gt;&lt;/p&gt;</code></pre>
+  <!--------------------------->
+  <!------  Cursor type ------>
+  <h3><u>Cursor Type</u></h3>
+  <p><spam class="ankitjha2603_bglight">cursorType</spam> attribute defines the type of cursor.</p>
+  <p>Their are two type of cursor</p>
+  <ul>
+    <li>Normal</li>
+    <li>Underscore</li>
+  </ul>
+  <div class="sample">
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorType="normal" cursorColor="green"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorType="underscore" cursorColor="red"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorType=&quot;normal&quot; cursorColor=&quot;green&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorType=&quot;underscore&quot; cursorColor=&quot;red&quot;&gt;&lt;/p&gt;</code></pre>
+  <!--------------------------->
+  <!------  underscore Cursor hype ------>
+  <h3><u>Underscore Cursor height</u></h3>
+  <p><spam class="ankitjha2603_bglight">underscore_cursor_height</spam> attribute defines the height of underscore cursor</p>
+  <div class="sample">
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorType="underscore" underscore_cursor_height="2px"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorType="underscore" underscore_cursor_height="3px"></p>
+    <p class="typing" text="Python, Javascript, Php, laravel, Typescript, Node.js" cursorType="underscore" underscore_cursor_height="4px"></p>
+  </div>
+  <pre class="language-html"><code>&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorType=&quot;underscore&quot; underscore_cursor_height=&quot;2px&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorType=&quot;underscore&quot; underscore_cursor_height=&quot;3px&quot;&gt;&lt;/p&gt;
+&lt;p class=&quot;typing&quot; text=&quot;Python, Javascript, Php, laravel, Typescript, Node.js&quot; cursorType=&quot;underscore&quot; underscore_cursor_height=&quot;4px&quot;&gt;&lt;/p&gt;</code></pre>
+  <!--------------------------->
+  
+  
+
+  <script src="https://ankitjha2603.github.io/typingEffect/typing.js"></script>
+  <script src="assets/cheatSheet.js"></script>
+</body>
+
+</html>
