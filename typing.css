@@ -2,6 +2,16 @@
 .ankitjha2603_cursor{
   height: auto;
 }
+.ankitjha2603__cursor_blink{
+  animation: ankitjha2603_blink 1s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes ankitjha2603_blink{
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+}
+
 .ankitjha2603_hidden{
   opacity: 0;
 }
