@@ -73,10 +73,10 @@ typingEle.forEach((element) => {
           reverse = true;
           char_index-=2
           stop=1
-          ele.children[1].classList.add("ankitjha2603_blink")
+          ele.children[1].classList.add("ankitjha2603__cursor_blink")
           setTimeout(()=>{
             stop=0
-            ele.children[1].classList.remove("ankitjha2603_blink")
+            ele.children[1].classList.remove("ankitjha2603__cursor_blink")
           },pauseTime)
         }
         
